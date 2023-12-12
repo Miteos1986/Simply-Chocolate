@@ -372,10 +372,15 @@ line-height: 16px;
 
 .made-img {
     border-radius: 15px;
+    margin-right: 20px;
 }
 
 .made-wrapper {
     display: flex;
+}
+
+.wrapper-text {
+    padding: 32px;
 }
 
 .made-subtittle {
@@ -395,6 +400,10 @@ line-height: 16px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     padding-bottom: 24px;
+}
+
+.made-item:last-child {
+    padding-bottom: 0;
 }
 
 /* Our Products */
