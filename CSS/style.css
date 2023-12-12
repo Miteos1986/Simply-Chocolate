@@ -374,6 +374,10 @@ line-height: 16px;
     border-radius: 15px;
 }
 
+.made-wrapper {
+    display: flex;
+}
+
 .made-subtittle {
     font-size: 18px;
     font-weight: 600;
