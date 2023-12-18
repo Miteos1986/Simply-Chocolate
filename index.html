@@ -18,7 +18,10 @@
       referrerpolicy="no-referrer" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./Images/logo.svg" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./Images/Icons/logo.svg"
+      type="image/x-icon" />
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
 
@@ -29,12 +32,9 @@
         <nav class="header-nav">
           <a class="header-logo" href="index.html"
             ><span class="accent">SIMPLY</span> CHOCOLATE
-            <img
-              class="header-logo-img"
-              src="./Images/logo.svg"
-              alt="site logo"
-              width="24"
-              height="24" />
+            <svg class="logo" width="24" height="24">
+              <use href="./Images/icons.svg#icon-logo"></use>
+            </svg>
           </a>
           <!-- Tittle -->
           <ul class="header-nav-list">
@@ -58,12 +58,9 @@
               href="https://facebook.com"
               target="_blank"
               aria-label="Facebook">
-              <img
-                class="socials-img"
-                src="./Images/Icons/Facebook.svg"
-                alt="Facebook icon"
-                width="24"
-                height="24" />
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-Facebook"></use>
+              </svg>
             </a>
           </li>
           <li class="socials-item">
@@ -72,12 +69,9 @@
               href="https://Instagram.com"
               target="_blank"
               aria-label="Instagram">
-              <img
-                class="socials-img"
-                src="./Images/Icons/icon-instagram.svg"
-                alt="Instagram icon"
-                width="24"
-                height="24" />
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-instagram"></use>
+              </svg>
             </a>
           </li>
           <li class="socials-item">
@@ -86,12 +80,9 @@
               href="https://Twitter.com"
               target="_blank"
               aria-label="Twitter">
-              <img
-                class="socials-img"
-                src="./Images/Icons/icon-twitter.svg"
-                alt="Twitter icon"
-                width="24"
-                height="24" />
+              <svg class="socials-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-twitter"></use>
+              </svg>
             </a>
           </li>
         </ul>
@@ -121,12 +112,10 @@
             <button class="hero-scroll" type="button">
               scroll down
               <span class="circle"
-                ><img
-                  src="./Images/Icons/scroll-down.svg"
-                  width="22"
-                  height="22"
-                  alt=""
-              /></span>
+                ><svg class="scroll" width="22" height="22">
+                  <use href="./Images/icons.svg#icon-scroll-down"></use>
+                </svg>
+              </span>
             </button>
           </div>
         </div>
@@ -137,6 +126,11 @@
           <h2 class="visually-hidden">Chocolate Benefits</h2>
           <ul class="feaut-list">
             <li class="feaut-item">
+              <div class="feaut-wrapper">
+                <svg class="feaut-icon" width="32" height="32">
+                  <use href="./Images/icons.svg#icon-chocolate-1"></use>
+                </svg>
+              </div>
               <h3 class="feaut-subtittle">Unsurpassed taste</h3>
               <p class="feaut-p">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -146,6 +140,11 @@
               </p>
             </li>
             <li class="feaut-item">
+              <div class="feaut-wrapper">
+                <svg class="feaut-icon" width="32" height="32">
+                  <use href="./Images/icons.svg#icon-coin"></use>
+                </svg>
+              </div>
               <h3 class="feaut-subtittle">Affordable price</h3>
               <p class="feaut-p">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -156,6 +155,11 @@
               </p>
             </li>
             <li class="feaut-item">
+              <div class="feaut-wrapper">
+                <svg class="feaut-icon" width="32" height="32">
+                  <use href="./Images/icons.svg#icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="feaut-subtittle">Own production</h3>
               <p class="feaut-p">
                 We take pride in our own production process, ensuring that every
@@ -176,6 +180,9 @@
           </h2>
           <ul class="ingrad-list">
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-1.png"
@@ -185,6 +192,9 @@
               <p class="ingrad-p">MILK CHOCOLATE</p>
             </li>
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-2.png"
@@ -194,6 +204,9 @@
               <p class="ingrad-p">MILK</p>
             </li>
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-3.png"
@@ -203,6 +216,9 @@
               <p class="ingrad-p">NUTS</p>
             </li>
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-4.png"
@@ -212,6 +228,9 @@
               <p class="ingrad-p">SEMI - SWEET CHOCOLATE</p>
             </li>
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-5.png"
@@ -221,6 +240,9 @@
               <p class="ingrad-p">CACAO</p>
             </li>
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-6.png"
@@ -230,6 +252,9 @@
               <p class="ingrad-p">RASPBERRY</p>
             </li>
             <li class="ingrad-item">
+              <svg class="ingrad-icon" width="24" height="24">
+                <use href="./Images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingrad-img"
                 src="./Images/ingridients/img-7.png"
@@ -255,6 +280,11 @@
                 height="400"
                 src="./Images/made.png"
                 alt="made" />
+              <button class="made-btn" type="button">
+                <svg class="made-icon" width="44" height="44">
+                  <use href="./Images/icons.svg#icon-play"></use>
+                </svg>
+              </button>
             </div>
             <div class="made-right-side">
               <h3 class="made-subtittle">
@@ -337,12 +367,11 @@
               <p class="product-p">Dark chocolate</p>
               <button class="products-btn" type="button">54 UAH</button>
             </li>
-            <li>
+            <li class="product-item">
               <img
+                class="product-img"
                 src="./Images/products/img-5.jpg"
-                alt="Classic"
-                width="230"
-                height="201" />
+                alt="Classic" />
               <h3 class="product-subtittle">Classic</h3>
               <p class="product-p">Milk chocolate</p>
               <button class="products-btn" type="button">45 UAH</button>
@@ -377,7 +406,7 @@
                 width="230"
                 height="201" />
               <h3 class="product-subtittle">Classic</h3>
-              <p>class="product-p"White chocolate</p>
+              <p class="product-p">White chocolate</p>
               <button class="products-btn" type="button">54 UAH</button>
             </li>
           </ul>
@@ -386,12 +415,12 @@
       <!-- Top sellers -->
       <section class="top section">
         <div class="container">
-          <h2 class="top-tittle"><span class="accent">Top</span> Sellers</h2>
+          <h2 class="top-tittle"><span class="accent">Top</span>Sellers</h2>
           <ul class="top-list">
             <li class="top-item">
               <img
                 class="top-img"
-                src="./Images/Top sellers/img-1.jpg"
+                src="./Images/Top-sellers/img-1.jpg"
                 alt="CHOCOLATE WITH NUTS"
                 width="368"
                 height="464" />
@@ -400,7 +429,7 @@
             <li class="top-item">
               <img
                 class="top-img"
-                src="./Images/Top sellers/img-2.jpg"
+                src="./Images/Top-sellers/img-2.jpg"
                 alt="CHOCOLATE WITH FRUITS"
                 width="368"
                 height="464" />
@@ -409,7 +438,7 @@
             <li class="top-item">
               <img
                 class="top-img"
-                src="./Images/Top sellers/img-3.jpg"
+                src="./Images/Top-sellers/img-3.jpg"
                 alt="DARK CHOCOLATE"
                 width="368"
                 height="464" />
@@ -481,47 +510,38 @@
           <!-- social link -->
           <div class="footer-socials">
             <p class="footer-p">Social networks</p>
-            <ul class="footer-list">
-              <li class="footer-social-item">
+            <ul class="socials-list">
+              <li class="socials-item">
                 <a
                   class="socials-link"
                   href="https://facebook.com"
                   target="_blank"
                   aria-label="Facebook">
-                  <img
-                    class="footer-social-img"
-                    src="./Images/Icons/Facebook.svg"
-                    alt="Facebook icon"
-                    width="24"
-                    height="24" />
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./Images/icons.svg#icon-Facebook"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="footer-social-item">
+              <li class="socials-item">
                 <a
                   class="socials-link"
                   href="https://Instagram.com"
                   target="_blank"
                   aria-label="Instagram">
-                  <img
-                    class="socials-img"
-                    src="./Images/Icons/icon-instagram.svg"
-                    alt="Instagram icon"
-                    width="24"
-                    height="24" />
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./Images/icons.svg#icon-instagram"></use>
+                  </svg>
                 </a>
               </li>
-              <li class="footer-social-item">
+              <li class="socials-item">
                 <a
                   class="socials-link"
                   href="https://Twitter.com"
                   target="_blank"
                   aria-label="Twitter">
-                  <img
-                    class="footer-social-img"
-                    src="./Images/Icons/icon-twitter.svg"
-                    alt="Twitter icon"
-                    width="24"
-                    height="24" />
+                  <svg class="socials-icon" width="24" height="24">
+                    <use href="./Images/icons.svg#icon-twitter"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
@@ -531,12 +551,12 @@
             <p class="address-p">Contact us</p>
             <ul class="address-list">
               <li class="address-item">
-                <a class="adress-link" href="tel: +380684439426"
+                <a class="adress-link" href="tel:+380684439426"
                   >+380 (68) 443-94-26</a
                 >
               </li>
               <li class="address-item">
-                <a class="adress-link" href="mailto: simplychoc@gmail.com"
+                <a class="adress-link" href="mailto:simplychoc@gmail.com"
                   >simplychoc@gmail.com</a
                 >
               </li>
