@@ -115,7 +115,7 @@ line-height: 16px;
   border-radius: 10px;
   border: 1px solid rgba(17, 17, 17, 0.1);
 
-  transition-property: color border-color;
+  transition-property: color, border-color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
@@ -209,10 +209,6 @@ line-height: 16px;
 .socials-link {
 }
 
-.socials-link:hover,
-.socials-link:active {
-  color: #fd9222;
-}
 .socials-icon {
   fill: currentColor;
 }
@@ -278,7 +274,7 @@ line-height: 16px;
 
 .hero-btn.primary {
   background-color: #fd9222;
-  transition-property: color background-color;
+  transition-property: color, background-color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
@@ -291,7 +287,7 @@ line-height: 16px;
 
 .hero-btn.secondary {
   border-color: #fff;
-  transition-property: color background-color;
+  transition-property: color, background-color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
@@ -333,7 +329,7 @@ line-height: 16px;
   border-radius: 50%;
   color: #fd9222;
   background-color: #fff;
-  transition-property: color background-color;
+  transition-property: color, background-color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
@@ -717,7 +713,7 @@ line-height: 16px;
   border-radius: 100px;
   border: 1px solid #fd9222;
 
-  transition-property: color background-color;
+  transition-property: color, background-color;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
 }
