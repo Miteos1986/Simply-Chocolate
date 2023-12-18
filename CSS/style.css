@@ -469,7 +469,7 @@ line-height: 16px;
 .made-left-side {
   position: relative;
   width: 600px;
-  transition: transform 500ms ease;
+  /* transition: transform 500ms ease; */
 }
 .made-btn {
   position: absolute;
